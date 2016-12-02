@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jCloud-01
+  host: jCloud-01
+  disk_quota: 1024M
+  services:
+  - jCloud-01-cloudantNoSQLDB
+  - jCloud-01-iotf-service
